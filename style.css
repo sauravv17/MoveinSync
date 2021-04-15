@@ -1,0 +1,107 @@
+
+.con{
+	background-color: #fff;
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+.con label{
+	font-size: 20px;
+}
+.con select{
+	color: rgb(126, 69, 5);
+}
+#name{
+	border: 1px solid #079955;
+	border-radius: 4px;
+	padding: 5px;
+	height: 20px;
+	width: 150px;
+}
+
+#city{
+	border: 1px solid #079955;
+	border-radius: 4px;
+	padding: 5px;
+	height: 30px;
+	width: 160px;
+}
+#city:focus{
+	outline: none;
+}
+#degree{
+	border: 1px solid #079955;
+	border-radius: 4px;
+	padding: 5px;
+	height: 20px;
+	width: 150px;
+}
+#degree:focus{
+	outline: none;
+}
+.mydiv{
+	padding: 20px;
+}
+#but{
+	border: none;
+	border-radius: 4px;
+	background-color: #111311;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.in{
+	color: rgb(113, 18, 190);
+	padding: 10px;
+	margin-bottom: -5%;
+}
+
+
+table, th, td {
+  border: 1px solid rgb(85, 143, 18);
+  border-collapse: collapse;
+}
+th{
+	padding: 30px;
+}
+td{
+	padding: 30px;
+}
+#u{
+	margin-left: 38%;
+	border: none;
+	background-color:black;
+	color: #fff;
+	font-size: 17px;
+	padding: 19px;
+	padding-right: 25px;
+	padding-left: 25px;
+	cursor: pointer;
+	margin-top: 25px;
+}
+
+.info{
+	margin-left: 30%;
+} 
+#plus{
+	display: none; 
+	position: fixed; 
+	z-index: 1; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	
+	background-color: rgba(0,0,0,0.4);  
+	padding-top: 70px;
+}
+#sample{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
